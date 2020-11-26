@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
+/*
+@font-face {
+  font-family: 'SEA SIDE RESORT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEA SIDE RESORT'), url('SEASRN__.ttf') format('ttf');
+}
 
+h1 {
+  font-family: 'SEA SIDE RESORT';
+}
+*/
 .App-logo {
   height: 40vmin;
   pointer-events: none;

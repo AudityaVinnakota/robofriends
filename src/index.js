@@ -1,9 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App';
+import Hello from './components/Hello';
 import reportWebVitals from './reportWebVitals';
+import Card from './components/Card';
+import CardList from './components/CardList';
+import SearchBox from './components/SearchBox';
 
+import 'tachyons';
+import robots from './components/robots';
+
+function Hello1(props) {
+  return (
+    <h1>Hello: this is {props.type} Component</h1>
+  )
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
